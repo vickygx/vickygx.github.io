@@ -1,0 +1,21 @@
+/* CSS for the home button */
+
+.navigation-back{
+    height:44px;
+    width:100px;
+    background-color:rgb(34, 34, 34);
+    position:absolute;
+    top:57px;
+    text-align:center;
+    color:white;
+    line-height: 44px;
+    transition: opacity 0.5s ease;
+    transition: width 0.5s ease;
+    opacity:1;
+}
+
+.navigation-back:hover{
+    opacity:0.5;
+    width:114px;
+    cursor:pointer;
+}
