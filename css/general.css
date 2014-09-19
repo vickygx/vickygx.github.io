@@ -3,3 +3,18 @@
 html {
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
+body {
+	margin: 0;
+}
+
+#navigationContainer {
+	text-align:center;
+	padding-top: 110px;
+}
+
+#contentContainer{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
