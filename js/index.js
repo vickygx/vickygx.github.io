@@ -29,9 +29,9 @@ var fillContentWithProjects = function(){
         ['img/zhift_icon.png',
          'img/fritter_icon.png',
          'img/medimage_icon.png',
-         'img/moodly_icon.png',
-         'img/quickSchedIcon.png',
-         'img/eating_icon.png',
+         'img/moodly_icon.PNG',
+         'img/quickSchedIcon.PNG',
+         'img/eating_icon.PNG',
          'img/personality_visualizer_icon.png'
         ],
         ['http://zhift-seropian.rhcloud.com/',
