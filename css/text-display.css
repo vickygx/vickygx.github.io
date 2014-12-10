@@ -1,0 +1,22 @@
+.text {
+  text-align: center;
+  margin: 5px auto;
+}
+
+.text-vertical-container .text-element {
+  display: block;
+  padding: 5px;
+}
+
+.text-horizontal-container .text-element {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.text-title {
+  display: block;
+}
+
+.text-subtitle {
+  display: block;
+}
