@@ -1,3 +1,6 @@
+var vert = 0;
+var hori = 1;
+
 $(document).ready(
     function(){
         // Adding home button
@@ -53,18 +56,37 @@ var fillContentWithProjects = function(){
 
 var fillContentWithExperience = function(){
     $('#contentContainer').empty();
-    $('#contentContainer').append($('<div>').text('experience'));
+    $('#contentContainer').append($('<h3>')
+        .text('Most Recent'));
+    $('#contentContainer').append(textDisplayWidget(
+        [ [
+            ['Pinterest', 'Growth Software Engineer', '2014']
+          ]
+        ],
+        [vert]
+    ));
+
+    $('#contentContainer').append($('<a>')
+        .attr('href', 'img/resume.pdf')
+        .text('full resume'));
 }
 
 var fillContentWithAwards = function(){
     $('#contentContainer').empty();
-    $('#contentContainer').append($('<div>').text('awards'));
+    $('#contentContainer').append(textDisplayWidget(
+        [ [
+            ['To Be Updated', 'Check Experience']
+          ]
+        ],
+        [vert]
+    ));
 }
 
 var fillContentWithAbout = function(){
-    var vert = 0;
-    var hori = 1;
     $('#contentContainer').empty();
+    $('#contentContainer').append($('<img>')
+        .attr('src', 'img/me.JPG')
+        .addClass('profile-picture'));
     $('#contentContainer').append(textDisplayWidget(
         [ [
             ['Vicky Gong', 'MIT - Computer Science - 2016']
