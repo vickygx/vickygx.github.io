@@ -3,11 +3,13 @@
 .navigation-item {
 	color: black;
 	display: inline-block;
+  cursor: pointer;
+  border-bottom:1px solid transparent;
 }
 
 .navigation-item:hover {
 	color:rgb(160, 158, 153);
-    border-bottom:1px solid black;
+  border-bottom:1px solid black;
 }
 
 .navigation-delim{

@@ -1,8 +1,6 @@
-function homeButtonWidget(link, text){
+function homeButtonWidget(link, text, clickfn){
 	return $("<div>")
         .addClass("homebutton")
-        .click(function(){
-        	window.location = link;
-        })
+        .click(clickfn)
         .text(text);
 }
