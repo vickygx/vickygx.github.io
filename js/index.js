@@ -4,12 +4,14 @@ var hori = 1;
 $(document).ready(
     function(){
         // Adding home button
+        /*
         $('#body').append(homeButtonWidget('#', ' + VICKYG ', 
             function(e){
                 fillContentWithAbout();
             }));
-
+        */
         // Adding navigation bar
+        /*
         $('#navigationContainer').append(navigationWidget(
             ['ABOUT', 'PROJECTS', 'EXPERIENCE', 'AWARDS'],
             [ fillContentWithAbout,
@@ -18,14 +20,15 @@ $(document).ready(
               fillContentWithAwards ],
             ' // '
         ));
+        */
 
         fillContentWithProjects();
     }
 );
 
 var fillContentWithProjects = function(){
-    $('#contentContainer').empty();
-    $('#contentContainer').append(imageGridWidget(
+    // $('#contentContainer').empty();
+    $('#projects').append(imageGridWidget(
         ['img/zhift_icon.png',
          'img/fritter_icon.png',
          'img/medimage_icon.png',
@@ -42,13 +45,13 @@ var fillContentWithProjects = function(){
          '#', 
          '#'
         ],
-        ['Zhift / cs + design',
-         'Fritter / cs + design',
-         'MedImage / search + tag + design',
-         'Moodly site / cs + design',
-         'quickSched / cs + design', 
-         'Food Talk / visual design', 
-         'Breach / cs + design'
+        ['Zhift / shift manager',
+         'Fritter / fake twitter',
+         'MedImage / medical image app',
+         'Moodly site / google glass',
+         'quickSched / scheduling', 
+         'Food Talk / infographic', 
+         'Breach / reflector'
         ],
         ['2014', '2014', '2014', '2014', '2014', '2013', '2013']
     ));
