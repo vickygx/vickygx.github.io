@@ -42,7 +42,7 @@ var fillContentWithProjects = function(){
          'http://medimage-calvinli.rhcloud.com',
          'http://mit.edu/vickyg/www/Moodly_Website',
          'http://mit.edu/vickyg/www/quickSched', 
-         '#', 
+         'http://mit.edu/vickyg/www/What%20Are%20You%20Really%20Eating/', 
          '#'
         ],
         ['Zhift / shift manager',
